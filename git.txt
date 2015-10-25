@@ -1,0 +1,40 @@
+
+Wan@Adeline MINGW64 ~
+$ git config --global user.name primitivenen
+
+Wan@Adeline MINGW64 ~
+$ git config --global user.email wanchen.uiuc@gmail.com
+
+Wan@Adeline MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+user.name=primitivenen
+user.email=wanchen.uiuc@gmail.com
+
+Wan@Adeline MINGW64 ~
+$ mkdir ~/datasciencecoursera
+
+Wan@Adeline MINGW64 ~
+$ pwd
+/c/Users/Yuanhua
+
+Wan@Adeline MINGW64 ~
+$ cd ~/datasciencecoursera
+
+Wan@Adeline MINGW64 ~/datasciencecoursera
+$ git init
+Initialized empty Git repository in C:/Users/Yuanhua/datasciencecoursera/.git/
+
+Wan@Adeline MINGW64 ~/datasciencecoursera (master)
+$ git remote add origin https://github.com/primitivenen/datasciencecoursera.git
+
+
